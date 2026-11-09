@@ -1,5 +1,5 @@
 /* Change this version whenever publishing a new complete app release. */
-const VERSION = '1.1.0';
+const VERSION = '1.1.1';
 const BASE = self.registration.scope;
 const PREFIX = `setline:${encodeURIComponent(BASE)}::`;
 const CACHE = `${PREFIX}${VERSION}`;
