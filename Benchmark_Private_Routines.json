@@ -1,0 +1,1525 @@
+{
+  "format": "benchmark-backup",
+  "version": 1,
+  "exportedAt": "2026-11-09T16:06:12.351Z",
+  "data": {
+    "schemaVersion": 1,
+    "catalog": [
+      {
+        "id": "builtin-bench-press-barbell",
+        "name": "Bench Press (Barbell)",
+        "equipment": "Barbell",
+        "group": "Chest",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-incline-bench-press-barbell",
+        "name": "Incline Bench Press (Barbell)",
+        "equipment": "Barbell",
+        "group": "Chest",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-decline-bench-press-barbell",
+        "name": "Decline Bench Press (Barbell)",
+        "equipment": "Barbell",
+        "group": "Chest",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-bench-press-dumbbell",
+        "name": "Bench Press (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Chest",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-incline-bench-press-dumbbell",
+        "name": "Incline Bench Press (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Chest",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-decline-bench-press-dumbbell",
+        "name": "Decline Bench Press (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Chest",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-incline-smith-machine",
+        "name": "Incline Smith Machine",
+        "equipment": "Smith machine",
+        "group": "Chest",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-flat-bench-press-smith-machine",
+        "name": "Flat Bench Press (Smith Machine)",
+        "equipment": "Smith machine",
+        "group": "Chest",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-chest-press-machine",
+        "name": "Chest Press (Machine)",
+        "equipment": "Machine",
+        "group": "Chest",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-incline-chest-press-machine",
+        "name": "Incline Chest Press (Machine)",
+        "equipment": "Machine",
+        "group": "Chest",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-chest-fly-machine",
+        "name": "Chest Fly (Machine)",
+        "equipment": "Machine",
+        "group": "Chest",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-chest-fly-dumbbell",
+        "name": "Chest Fly (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Chest",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-chest-fly-cable",
+        "name": "Chest Fly (Cable)",
+        "equipment": "Cable",
+        "group": "Chest",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-low-to-high-chest-fly-cable",
+        "name": "Low to High Chest Fly (Cable)",
+        "equipment": "Cable",
+        "group": "Chest",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-high-to-low-chest-fly-cable",
+        "name": "High to Low Chest Fly (Cable)",
+        "equipment": "Cable",
+        "group": "Chest",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-push-up",
+        "name": "Push Up",
+        "equipment": "Bodyweight",
+        "group": "Chest",
+        "weightMode": "bodyweight"
+      },
+      {
+        "id": "builtin-chest-dip",
+        "name": "Chest Dip",
+        "equipment": "Bodyweight",
+        "group": "Chest",
+        "weightMode": "bodyweight"
+      },
+      {
+        "id": "builtin-lat-pulldown-cable",
+        "name": "Lat Pulldown (Cable)",
+        "equipment": "Cable",
+        "group": "Back",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-close-grip-lat-pulldown-cable",
+        "name": "Close Grip Lat Pulldown (Cable)",
+        "equipment": "Cable",
+        "group": "Back",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-neutral-grip-lat-pulldown-cable",
+        "name": "Neutral Grip Lat Pulldown (Cable)",
+        "equipment": "Cable",
+        "group": "Back",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-single-arm-lat-pulldown-cable",
+        "name": "Single Arm Lat Pulldown (Cable)",
+        "equipment": "Cable",
+        "group": "Back",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-lat-pulldown-machine",
+        "name": "Lat Pulldown (Machine)",
+        "equipment": "Machine",
+        "group": "Back",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-machine-lat-row",
+        "name": "Machine Lat Row",
+        "equipment": "Machine",
+        "group": "Back",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-seated-row-machine",
+        "name": "Seated Row (Machine)",
+        "equipment": "Machine",
+        "group": "Back",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-seated-row-cable",
+        "name": "Seated Row (Cable)",
+        "equipment": "Cable",
+        "group": "Back",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-wide-grip-seated-row-cable",
+        "name": "Wide Grip Seated Row (Cable)",
+        "equipment": "Cable",
+        "group": "Back",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-single-arm-row-cable",
+        "name": "Single Arm Row (Cable)",
+        "equipment": "Cable",
+        "group": "Back",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-single-arm-row-dumbbell",
+        "name": "Single Arm Row (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Back",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-chest-supported-row-dumbbell",
+        "name": "Chest Supported Row (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Back",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-chest-supported-row-machine",
+        "name": "Chest Supported Row (Machine)",
+        "equipment": "Machine",
+        "group": "Back",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-bent-over-row-barbell",
+        "name": "Bent Over Row (Barbell)",
+        "equipment": "Barbell",
+        "group": "Back",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-t-bar-row-machine",
+        "name": "T-Bar Row (Machine)",
+        "equipment": "Machine",
+        "group": "Back",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-straight-arm-pulldown-cable",
+        "name": "Straight Arm Pulldown (Cable)",
+        "equipment": "Cable",
+        "group": "Back",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-pullover-machine",
+        "name": "Pullover (Machine)",
+        "equipment": "Machine",
+        "group": "Back",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-pullover-dumbbell",
+        "name": "Pullover (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Back",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-pull-up",
+        "name": "Pull Up",
+        "equipment": "Bodyweight",
+        "group": "Back",
+        "weightMode": "bodyweight"
+      },
+      {
+        "id": "builtin-chin-up",
+        "name": "Chin Up",
+        "equipment": "Bodyweight",
+        "group": "Back",
+        "weightMode": "bodyweight"
+      },
+      {
+        "id": "builtin-assisted-pull-up-machine",
+        "name": "Assisted Pull Up (Machine)",
+        "equipment": "Machine",
+        "group": "Back",
+        "weightMode": "assistance"
+      },
+      {
+        "id": "builtin-assisted-chin-up-machine",
+        "name": "Assisted Chin Up (Machine)",
+        "equipment": "Machine",
+        "group": "Back",
+        "weightMode": "assistance"
+      },
+      {
+        "id": "builtin-back-extension",
+        "name": "Back Extension",
+        "equipment": "Bodyweight",
+        "group": "Back",
+        "weightMode": "bodyweight"
+      },
+      {
+        "id": "builtin-back-extension-machine",
+        "name": "Back Extension (Machine)",
+        "equipment": "Machine",
+        "group": "Back",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-shrug-dumbbell",
+        "name": "Shrug (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Back",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-shrug-barbell",
+        "name": "Shrug (Barbell)",
+        "equipment": "Barbell",
+        "group": "Back",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-shrug-machine",
+        "name": "Shrug (Machine)",
+        "equipment": "Machine",
+        "group": "Back",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-shoulder-press-dumbbell",
+        "name": "Shoulder Press (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Shoulders",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-shoulder-press-machine",
+        "name": "Shoulder Press (Machine)",
+        "equipment": "Machine",
+        "group": "Shoulders",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-shoulder-press-smith-machine",
+        "name": "Shoulder Press (Smith Machine)",
+        "equipment": "Smith machine",
+        "group": "Shoulders",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-overhead-press-barbell",
+        "name": "Overhead Press (Barbell)",
+        "equipment": "Barbell",
+        "group": "Shoulders",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-arnold-press-dumbbell",
+        "name": "Arnold Press (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Shoulders",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-lateral-raise-dumbbell",
+        "name": "Lateral Raise (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Shoulders",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-lateral-raise-machine",
+        "name": "Lateral Raise (Machine)",
+        "equipment": "Machine",
+        "group": "Shoulders",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-single-arm-lateral-raise-cable",
+        "name": "Single Arm Lateral Raise (Cable)",
+        "equipment": "Cable",
+        "group": "Shoulders",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-front-raise-dumbbell",
+        "name": "Front Raise (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Shoulders",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-front-raise-cable",
+        "name": "Front Raise (Cable)",
+        "equipment": "Cable",
+        "group": "Shoulders",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-rear-delt-fly-machine",
+        "name": "Rear Delt Fly (Machine)",
+        "equipment": "Machine",
+        "group": "Shoulders",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-rear-delt-fly-dumbbell",
+        "name": "Rear Delt Fly (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Shoulders",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-rear-delt-fly-cable",
+        "name": "Rear Delt Fly (Cable)",
+        "equipment": "Cable",
+        "group": "Shoulders",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-face-pull-cable",
+        "name": "Face Pull (Cable)",
+        "equipment": "Cable",
+        "group": "Shoulders",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-upright-row-cable",
+        "name": "Upright Row (Cable)",
+        "equipment": "Cable",
+        "group": "Shoulders",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-upright-row-barbell",
+        "name": "Upright Row (Barbell)",
+        "equipment": "Barbell",
+        "group": "Shoulders",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-biceps-curl-dumbbell",
+        "name": "Biceps Curl (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Arms",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-alternating-biceps-curl-dumbbell",
+        "name": "Alternating Biceps Curl (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Arms",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-incline-curl-dumbbell",
+        "name": "Incline Curl (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Arms",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-hammer-curl-dumbbell",
+        "name": "Hammer Curl (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Arms",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-cross-body-hammer-curl-dumbbell",
+        "name": "Cross Body Hammer Curl (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Arms",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-preacher-curl-machine",
+        "name": "Preacher Curl (Machine)",
+        "equipment": "Machine",
+        "group": "Arms",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-preacher-curl-dumbbell",
+        "name": "Preacher Curl (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Arms",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-preacher-curl-ez-bar",
+        "name": "Preacher Curl (EZ Bar)",
+        "equipment": "EZ bar",
+        "group": "Arms",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-biceps-curl-barbell",
+        "name": "Biceps Curl (Barbell)",
+        "equipment": "Barbell",
+        "group": "Arms",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-biceps-curl-ez-bar",
+        "name": "Biceps Curl (EZ Bar)",
+        "equipment": "EZ bar",
+        "group": "Arms",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-biceps-curl-cable",
+        "name": "Biceps Curl (Cable)",
+        "equipment": "Cable",
+        "group": "Arms",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-biceps-curl-machine",
+        "name": "Biceps Curl (Machine)",
+        "equipment": "Machine",
+        "group": "Arms",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-hammer-curl-cable",
+        "name": "Hammer Curl (Cable)",
+        "equipment": "Cable",
+        "group": "Arms",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-bayesian-curl-cable",
+        "name": "Bayesian Curl (Cable)",
+        "equipment": "Cable",
+        "group": "Arms",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-concentration-curl-dumbbell",
+        "name": "Concentration Curl (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Arms",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-reverse-curl-ez-bar",
+        "name": "Reverse Curl (EZ Bar)",
+        "equipment": "EZ bar",
+        "group": "Arms",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-triceps-rope-pushdown",
+        "name": "Triceps Rope Pushdown",
+        "equipment": "Cable",
+        "group": "Arms",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-triceps-bar-pushdown",
+        "name": "Triceps Bar Pushdown",
+        "equipment": "Cable",
+        "group": "Arms",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-single-arm-triceps-pushdown-cable",
+        "name": "Single Arm Triceps Pushdown (Cable)",
+        "equipment": "Cable",
+        "group": "Arms",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-overhead-triceps-extension-cable",
+        "name": "Overhead Triceps Extension (Cable)",
+        "equipment": "Cable",
+        "group": "Arms",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-overhead-triceps-extension-dumbbell",
+        "name": "Overhead Triceps Extension (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Arms",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-triceps-extension-machine",
+        "name": "Triceps Extension (Machine)",
+        "equipment": "Machine",
+        "group": "Arms",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-skull-crusher-ez-bar",
+        "name": "Skull Crusher (EZ Bar)",
+        "equipment": "EZ bar",
+        "group": "Arms",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-skull-crusher-dumbbell",
+        "name": "Skull Crusher (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Arms",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-jm-press-smith-machine",
+        "name": "JM Press (Smith Machine)",
+        "equipment": "Smith machine",
+        "group": "Arms",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-jm-press-barbell",
+        "name": "JM Press (Barbell)",
+        "equipment": "Barbell",
+        "group": "Arms",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-close-grip-bench-press-barbell",
+        "name": "Close Grip Bench Press (Barbell)",
+        "equipment": "Barbell",
+        "group": "Arms",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-triceps-dip",
+        "name": "Triceps Dip",
+        "equipment": "Bodyweight",
+        "group": "Arms",
+        "weightMode": "bodyweight"
+      },
+      {
+        "id": "builtin-assisted-dip-machine",
+        "name": "Assisted Dip (Machine)",
+        "equipment": "Machine",
+        "group": "Arms",
+        "weightMode": "assistance"
+      },
+      {
+        "id": "builtin-seated-dip-machine",
+        "name": "Seated Dip (Machine)",
+        "equipment": "Machine",
+        "group": "Arms",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-triceps-kickback-dumbbell",
+        "name": "Triceps Kickback (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Arms",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-wrist-curl-dumbbell",
+        "name": "Wrist Curl (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Arms",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-back-squat-barbell",
+        "name": "Back Squat (Barbell)",
+        "equipment": "Barbell",
+        "group": "Legs",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-front-squat-barbell",
+        "name": "Front Squat (Barbell)",
+        "equipment": "Barbell",
+        "group": "Legs",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-squat-smith-machine",
+        "name": "Squat (Smith Machine)",
+        "equipment": "Smith machine",
+        "group": "Legs",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-goblet-squat-dumbbell",
+        "name": "Goblet Squat (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Legs",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-hack-squat-machine",
+        "name": "Hack Squat (Machine)",
+        "equipment": "Machine",
+        "group": "Legs",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-pendulum-squat-machine",
+        "name": "Pendulum Squat (Machine)",
+        "equipment": "Machine",
+        "group": "Legs",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-belt-squat-machine",
+        "name": "Belt Squat (Machine)",
+        "equipment": "Machine",
+        "group": "Legs",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-leg-press-machine",
+        "name": "Leg Press (Machine)",
+        "equipment": "Machine",
+        "group": "Legs",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-seated-leg-press-machine",
+        "name": "Seated Leg Press (Machine)",
+        "equipment": "Machine",
+        "group": "Legs",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-45-degree-leg-press-machine",
+        "name": "45 Degree Leg Press (Machine)",
+        "equipment": "Machine",
+        "group": "Legs",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-single-leg-press-machine",
+        "name": "Single Leg Press (Machine)",
+        "equipment": "Machine",
+        "group": "Legs",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-leg-extension-machine",
+        "name": "Leg Extension (Machine)",
+        "equipment": "Machine",
+        "group": "Legs",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-seated-leg-curl-machine",
+        "name": "Seated Leg Curl (Machine)",
+        "equipment": "Machine",
+        "group": "Legs",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-lying-leg-curl-machine",
+        "name": "Lying Leg Curl (Machine)",
+        "equipment": "Machine",
+        "group": "Legs",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-standing-leg-curl-machine",
+        "name": "Standing Leg Curl (Machine)",
+        "equipment": "Machine",
+        "group": "Legs",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-romanian-deadlift-barbell",
+        "name": "Romanian Deadlift (Barbell)",
+        "equipment": "Barbell",
+        "group": "Legs",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-romanian-deadlift-dumbbell",
+        "name": "Romanian Deadlift (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Legs",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-romanian-deadlift-smith-machine",
+        "name": "Romanian Deadlift (Smith Machine)",
+        "equipment": "Smith machine",
+        "group": "Legs",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-bulgarian-split-squat-dumbbell",
+        "name": "Bulgarian Split Squat (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Legs",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-split-squat-smith-machine",
+        "name": "Split Squat (Smith Machine)",
+        "equipment": "Smith machine",
+        "group": "Legs",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-walking-lunge-dumbbell",
+        "name": "Walking Lunge (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Legs",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-reverse-lunge-dumbbell",
+        "name": "Reverse Lunge (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Legs",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-step-up-dumbbell",
+        "name": "Step Up (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Legs",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-hip-thrust-barbell",
+        "name": "Hip Thrust (Barbell)",
+        "equipment": "Barbell",
+        "group": "Legs",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-hip-thrust-machine",
+        "name": "Hip Thrust (Machine)",
+        "equipment": "Machine",
+        "group": "Legs",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-hip-thrust-smith-machine",
+        "name": "Hip Thrust (Smith Machine)",
+        "equipment": "Smith machine",
+        "group": "Legs",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-glute-kickback-cable",
+        "name": "Glute Kickback (Cable)",
+        "equipment": "Cable",
+        "group": "Legs",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-glute-kickback-machine",
+        "name": "Glute Kickback (Machine)",
+        "equipment": "Machine",
+        "group": "Legs",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-hip-abduction-machine",
+        "name": "Hip Abduction (Machine)",
+        "equipment": "Machine",
+        "group": "Legs",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-hip-adduction-machine",
+        "name": "Hip Adduction (Machine)",
+        "equipment": "Machine",
+        "group": "Legs",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-standing-calf-raise-machine",
+        "name": "Standing Calf Raise (Machine)",
+        "equipment": "Machine",
+        "group": "Legs",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-seated-calf-raise-machine",
+        "name": "Seated Calf Raise (Machine)",
+        "equipment": "Machine",
+        "group": "Legs",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-calf-press-leg-press-machine",
+        "name": "Calf Press (Leg Press Machine)",
+        "equipment": "Machine",
+        "group": "Legs",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-calf-raise-smith-machine",
+        "name": "Calf Raise (Smith Machine)",
+        "equipment": "Smith machine",
+        "group": "Legs",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-hanging-knee-raise",
+        "name": "Hanging Knee Raise",
+        "equipment": "Bodyweight",
+        "group": "Core",
+        "weightMode": "bodyweight"
+      },
+      {
+        "id": "builtin-hanging-leg-raise",
+        "name": "Hanging Leg Raise",
+        "equipment": "Bodyweight",
+        "group": "Core",
+        "weightMode": "bodyweight"
+      },
+      {
+        "id": "builtin-captain-chair-knee-raise",
+        "name": "Captain Chair Knee Raise",
+        "equipment": "Bodyweight",
+        "group": "Core",
+        "weightMode": "bodyweight"
+      },
+      {
+        "id": "builtin-crunch",
+        "name": "Crunch",
+        "equipment": "Bodyweight",
+        "group": "Core",
+        "weightMode": "bodyweight"
+      },
+      {
+        "id": "builtin-crunch-cable",
+        "name": "Crunch (Cable)",
+        "equipment": "Cable",
+        "group": "Core",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-ab-crunch-machine",
+        "name": "Ab Crunch (Machine)",
+        "equipment": "Machine",
+        "group": "Core",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-rotary-torso-machine",
+        "name": "Rotary Torso (Machine)",
+        "equipment": "Machine",
+        "group": "Core",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-reverse-crunch",
+        "name": "Reverse Crunch",
+        "equipment": "Bodyweight",
+        "group": "Core",
+        "weightMode": "bodyweight"
+      },
+      {
+        "id": "builtin-decline-sit-up",
+        "name": "Decline Sit Up",
+        "equipment": "Bodyweight",
+        "group": "Core",
+        "weightMode": "bodyweight"
+      },
+      {
+        "id": "builtin-ab-wheel-rollout",
+        "name": "Ab Wheel Rollout",
+        "equipment": "Bodyweight",
+        "group": "Core",
+        "weightMode": "bodyweight"
+      },
+      {
+        "id": "builtin-russian-twist-dumbbell",
+        "name": "Russian Twist (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Core",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-woodchop-cable",
+        "name": "Woodchop (Cable)",
+        "equipment": "Cable",
+        "group": "Core",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-pallof-press-cable",
+        "name": "Pallof Press (Cable)",
+        "equipment": "Cable",
+        "group": "Core",
+        "weightMode": "machine-total"
+      },
+      {
+        "id": "builtin-deadlift-barbell",
+        "name": "Deadlift (Barbell)",
+        "equipment": "Barbell",
+        "group": "Full body",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-sumo-deadlift-barbell",
+        "name": "Sumo Deadlift (Barbell)",
+        "equipment": "Barbell",
+        "group": "Full body",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-deadlift-trap-bar",
+        "name": "Deadlift (Trap Bar)",
+        "equipment": "Trap bar",
+        "group": "Full body",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-kettlebell-swing",
+        "name": "Kettlebell Swing",
+        "equipment": "Kettlebell",
+        "group": "Full body",
+        "weightMode": "total"
+      },
+      {
+        "id": "builtin-thruster-dumbbell",
+        "name": "Thruster (Dumbbell)",
+        "equipment": "Dumbbell",
+        "group": "Full body",
+        "weightMode": "per-dumbbell"
+      },
+      {
+        "id": "builtin-burpee",
+        "name": "Burpee",
+        "equipment": "Bodyweight",
+        "group": "Full body",
+        "weightMode": "bodyweight"
+      },
+      {
+        "id": "custom-calf-press-machine",
+        "name": "Calf Press (Machine)",
+        "equipment": "Machine",
+        "group": "Legs",
+        "weightMode": "machine-total"
+      }
+    ],
+    "routines": [
+      {
+        "id": "starter-push",
+        "name": "Cascade push day",
+        "exercises": [
+          {
+            "slotId": "starter-push-exercise-1",
+            "exerciseId": "builtin-chest-fly-machine",
+            "sets": [
+              {
+                "id": "starter-push-exercise-1-set-1",
+                "targetReps": 10
+              },
+              {
+                "id": "starter-push-exercise-1-set-2",
+                "targetReps": 9
+              }
+            ]
+          },
+          {
+            "slotId": "starter-push-exercise-2",
+            "exerciseId": "builtin-incline-smith-machine",
+            "sets": [
+              {
+                "id": "starter-push-exercise-2-set-1",
+                "targetReps": 8
+              },
+              {
+                "id": "starter-push-exercise-2-set-2",
+                "targetReps": 8
+              }
+            ]
+          },
+          {
+            "slotId": "starter-push-exercise-3",
+            "exerciseId": "builtin-single-arm-lateral-raise-cable",
+            "sets": [
+              {
+                "id": "starter-push-exercise-3-set-1",
+                "targetReps": 6
+              },
+              {
+                "id": "starter-push-exercise-3-set-2",
+                "targetReps": 13
+              }
+            ]
+          },
+          {
+            "slotId": "starter-push-exercise-4",
+            "exerciseId": "builtin-triceps-rope-pushdown",
+            "sets": [
+              {
+                "id": "starter-push-exercise-4-set-1",
+                "targetReps": 5
+              },
+              {
+                "id": "starter-push-exercise-4-set-2",
+                "targetReps": 9
+              }
+            ]
+          },
+          {
+            "slotId": "starter-push-exercise-5",
+            "exerciseId": "builtin-shoulder-press-dumbbell",
+            "sets": [
+              {
+                "id": "starter-push-exercise-5-set-1",
+                "targetReps": 6
+              }
+            ]
+          },
+          {
+            "slotId": "starter-push-exercise-6",
+            "exerciseId": "builtin-jm-press-smith-machine",
+            "sets": [
+              {
+                "id": "starter-push-exercise-6-set-1",
+                "targetReps": 12
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "starter-pull",
+        "name": "Cascade pull day",
+        "exercises": [
+          {
+            "slotId": "starter-pull-exercise-1",
+            "exerciseId": "builtin-lat-pulldown-cable",
+            "sets": [
+              {
+                "id": "starter-pull-exercise-1-set-1",
+                "targetReps": 11
+              },
+              {
+                "id": "starter-pull-exercise-1-set-2",
+                "targetReps": 10
+              }
+            ]
+          },
+          {
+            "slotId": "starter-pull-exercise-2",
+            "exerciseId": "builtin-seated-row-machine",
+            "sets": [
+              {
+                "id": "starter-pull-exercise-2-set-1",
+                "targetReps": 10
+              },
+              {
+                "id": "starter-pull-exercise-2-set-2",
+                "targetReps": 9
+              }
+            ]
+          },
+          {
+            "slotId": "starter-pull-exercise-3",
+            "exerciseId": "builtin-machine-lat-row",
+            "sets": [
+              {
+                "id": "starter-pull-exercise-3-set-1",
+                "targetReps": 8
+              }
+            ]
+          },
+          {
+            "slotId": "starter-pull-exercise-4",
+            "exerciseId": "builtin-preacher-curl-machine",
+            "sets": [
+              {
+                "id": "starter-pull-exercise-4-set-1",
+                "targetReps": 9
+              },
+              {
+                "id": "starter-pull-exercise-4-set-2",
+                "targetReps": 8
+              }
+            ]
+          },
+          {
+            "slotId": "starter-pull-exercise-5",
+            "exerciseId": "builtin-hammer-curl-dumbbell",
+            "sets": [
+              {
+                "id": "starter-pull-exercise-5-set-1",
+                "targetReps": 8
+              },
+              {
+                "id": "starter-pull-exercise-5-set-2",
+                "targetReps": 7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "starter-legs",
+        "name": "Leg day",
+        "exercises": [
+          {
+            "slotId": "starter-legs-exercise-1",
+            "exerciseId": "builtin-seated-leg-curl-machine",
+            "sets": [
+              {
+                "id": "starter-legs-exercise-1-set-1",
+                "targetReps": 9
+              },
+              {
+                "id": "starter-legs-exercise-1-set-2",
+                "targetReps": 8
+              }
+            ]
+          },
+          {
+            "slotId": "starter-legs-exercise-2",
+            "exerciseId": "builtin-leg-extension-machine",
+            "sets": [
+              {
+                "id": "starter-legs-exercise-2-set-1",
+                "targetReps": 12
+              },
+              {
+                "id": "starter-legs-exercise-2-set-2",
+                "targetReps": 11
+              }
+            ]
+          },
+          {
+            "slotId": "starter-legs-exercise-3",
+            "exerciseId": "custom-calf-press-machine",
+            "sets": [
+              {
+                "id": "starter-legs-exercise-3-set-1",
+                "targetReps": 13
+              },
+              {
+                "id": "starter-legs-exercise-3-set-2",
+                "targetReps": 13
+              }
+            ]
+          },
+          {
+            "slotId": "starter-legs-exercise-4",
+            "exerciseId": "builtin-hanging-knee-raise",
+            "sets": [
+              {
+                "id": "starter-legs-exercise-4-set-1",
+                "targetReps": 16
+              },
+              {
+                "id": "starter-legs-exercise-4-set-2",
+                "targetReps": 12
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "history": [],
+    "baselines": [
+      {
+        "exerciseId": "builtin-chest-fly-machine",
+        "slotId": "starter-push-exercise-1",
+        "routineName": "Cascade push day",
+        "sets": [
+          {
+            "id": "starter-push-exercise-1-set-1",
+            "weight": 145,
+            "reps": 9,
+            "completed": true
+          },
+          {
+            "id": "starter-push-exercise-1-set-2",
+            "weight": 145,
+            "reps": 8,
+            "completed": true
+          }
+        ]
+      },
+      {
+        "exerciseId": "builtin-incline-smith-machine",
+        "slotId": "starter-push-exercise-2",
+        "routineName": "Cascade push day",
+        "sets": [
+          {
+            "id": "starter-push-exercise-2-set-1",
+            "weight": 90,
+            "reps": 7,
+            "completed": true
+          },
+          {
+            "id": "starter-push-exercise-2-set-2",
+            "weight": 90,
+            "reps": 7,
+            "completed": true
+          }
+        ]
+      },
+      {
+        "exerciseId": "builtin-single-arm-lateral-raise-cable",
+        "slotId": "starter-push-exercise-3",
+        "routineName": "Cascade push day",
+        "sets": [
+          {
+            "id": "starter-push-exercise-3-set-1",
+            "weight": 10,
+            "reps": 5,
+            "completed": true
+          },
+          {
+            "id": "starter-push-exercise-3-set-2",
+            "weight": 5,
+            "reps": 12,
+            "completed": true
+          }
+        ]
+      },
+      {
+        "exerciseId": "builtin-triceps-rope-pushdown",
+        "slotId": "starter-push-exercise-4",
+        "routineName": "Cascade push day",
+        "sets": [
+          {
+            "id": "starter-push-exercise-4-set-1",
+            "weight": 30,
+            "reps": 4,
+            "completed": true
+          },
+          {
+            "id": "starter-push-exercise-4-set-2",
+            "weight": 25,
+            "reps": 8,
+            "completed": true
+          }
+        ]
+      },
+      {
+        "exerciseId": "builtin-shoulder-press-dumbbell",
+        "slotId": "starter-push-exercise-5",
+        "routineName": "Cascade push day",
+        "sets": [
+          {
+            "id": "starter-push-exercise-5-set-1",
+            "weight": 55,
+            "reps": 5,
+            "completed": true
+          }
+        ]
+      },
+      {
+        "exerciseId": "builtin-jm-press-smith-machine",
+        "slotId": "starter-push-exercise-6",
+        "routineName": "Cascade push day",
+        "sets": [
+          {
+            "id": "starter-push-exercise-6-set-1",
+            "weight": 70,
+            "reps": 11,
+            "completed": true
+          }
+        ]
+      },
+      {
+        "exerciseId": "builtin-lat-pulldown-cable",
+        "slotId": "starter-pull-exercise-1",
+        "routineName": "Cascade pull day",
+        "sets": [
+          {
+            "id": "starter-pull-exercise-1-set-1",
+            "weight": 130,
+            "reps": 10,
+            "completed": true
+          },
+          {
+            "id": "starter-pull-exercise-1-set-2",
+            "weight": 130,
+            "reps": 9,
+            "completed": true
+          }
+        ]
+      },
+      {
+        "exerciseId": "builtin-seated-row-machine",
+        "slotId": "starter-pull-exercise-2",
+        "routineName": "Cascade pull day",
+        "sets": [
+          {
+            "id": "starter-pull-exercise-2-set-1",
+            "weight": 175,
+            "reps": 9,
+            "completed": true
+          },
+          {
+            "id": "starter-pull-exercise-2-set-2",
+            "weight": 175,
+            "reps": 8,
+            "completed": true
+          }
+        ]
+      },
+      {
+        "exerciseId": "builtin-machine-lat-row",
+        "slotId": "starter-pull-exercise-3",
+        "routineName": "Cascade pull day",
+        "sets": [
+          {
+            "id": "starter-pull-exercise-3-set-1",
+            "weight": 175,
+            "reps": 7,
+            "completed": true
+          }
+        ]
+      },
+      {
+        "exerciseId": "builtin-preacher-curl-machine",
+        "slotId": "starter-pull-exercise-4",
+        "routineName": "Cascade pull day",
+        "sets": [
+          {
+            "id": "starter-pull-exercise-4-set-1",
+            "weight": 115,
+            "reps": 8,
+            "completed": true
+          },
+          {
+            "id": "starter-pull-exercise-4-set-2",
+            "weight": 115,
+            "reps": 7,
+            "completed": true
+          }
+        ]
+      },
+      {
+        "exerciseId": "builtin-hammer-curl-dumbbell",
+        "slotId": "starter-pull-exercise-5",
+        "routineName": "Cascade pull day",
+        "sets": [
+          {
+            "id": "starter-pull-exercise-5-set-1",
+            "weight": 35,
+            "reps": 7,
+            "completed": true
+          },
+          {
+            "id": "starter-pull-exercise-5-set-2",
+            "weight": 35,
+            "reps": 6,
+            "completed": true
+          }
+        ]
+      },
+      {
+        "exerciseId": "builtin-seated-leg-curl-machine",
+        "slotId": "starter-legs-exercise-1",
+        "routineName": "Leg day",
+        "sets": [
+          {
+            "id": "starter-legs-exercise-1-set-1",
+            "weight": 175,
+            "reps": 8,
+            "completed": true
+          },
+          {
+            "id": "starter-legs-exercise-1-set-2",
+            "weight": 175,
+            "reps": 7,
+            "completed": true
+          }
+        ]
+      },
+      {
+        "exerciseId": "builtin-leg-extension-machine",
+        "slotId": "starter-legs-exercise-2",
+        "routineName": "Leg day",
+        "sets": [
+          {
+            "id": "starter-legs-exercise-2-set-1",
+            "weight": 175,
+            "reps": 11,
+            "completed": true
+          },
+          {
+            "id": "starter-legs-exercise-2-set-2",
+            "weight": 175,
+            "reps": 10,
+            "completed": true
+          }
+        ]
+      },
+      {
+        "exerciseId": "custom-calf-press-machine",
+        "slotId": "starter-legs-exercise-3",
+        "routineName": "Leg day",
+        "sets": [
+          {
+            "id": "starter-legs-exercise-3-set-1",
+            "weight": 235,
+            "reps": 12,
+            "completed": true
+          },
+          {
+            "id": "starter-legs-exercise-3-set-2",
+            "weight": 235,
+            "reps": 12,
+            "completed": true
+          }
+        ]
+      },
+      {
+        "exerciseId": "builtin-hanging-knee-raise",
+        "slotId": "starter-legs-exercise-4",
+        "routineName": "Leg day",
+        "sets": [
+          {
+            "id": "starter-legs-exercise-4-set-1",
+            "weight": null,
+            "reps": 15,
+            "completed": true
+          },
+          {
+            "id": "starter-legs-exercise-4-set-2",
+            "weight": null,
+            "reps": 11,
+            "completed": true
+          }
+        ]
+      }
+    ],
+    "active": null,
+    "settings": {
+      "unit": "lb"
+    },
+    "lastExportAt": null
+  }
+}
